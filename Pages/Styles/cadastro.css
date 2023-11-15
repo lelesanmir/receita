@@ -1,0 +1,203 @@
+
+*{
+    width: 90%;
+    height: auto;
+    margin: 0% auto;
+}
+
+body{
+   background-color: #fff;
+
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 255, 0.452);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 10px; /* Adiciona margem esquerda */
+    margin-right: 10px; /* Adiciona margem direita */
+}
+
+
+/* Estilos base para os links */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between; /* Alinha os itens à esquerda e à direita */
+    align-items: center; /* Centraliza verticalmente */
+  
+}
+
+
+nav a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo para os botões */
+nav a:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.1) translateZ(10px);
+    -webkit-transform: translateY(-5px);  
+    -ms-transform: translateY(-5px);  
+    transform: translateY(-5px);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  
+}
+
+
+/* Estilo para o botão de login */
+nav a.login-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin-left: auto; /* Empurra o botão para a direita */
+}
+
+.carousel {
+    padding-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 50%;
+    display: flex;
+    height: auto;
+}
+
+/*aqui começa o segundo */
+.carousel2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+   
+}
+
+.carousel2-track {
+    display: flex;
+    overflow: hidden;
+}
+
+.slide2 {
+    flex: 0 0 33.33%; /* Cada slide ocupa 33.33% da largura */
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.slide2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide2:hover img {
+    transform: scale(1.1); /* Zoom ao passar o mouse */
+}
+
+.slide2 {
+    position: relative; /* Para posicionar o nome em relação à imagem */
+}
+
+.image-name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    opacity: 0; /* Começa invisível */
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.slide2:hover .image-name {
+    opacity: 1; /* Mostra o nome ao passar o mouse */
+    transform: translateX(-50%) translateY(-100%);
+}
+
+
+/* Estilos para o contêiner principal */
+main {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* Estilos para o contêiner do formulário */
+#addForm {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para o título "Incluir Cargo" */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para os campos de entrada */
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0; /* Espaçamento ao redor dos campos */
+    border: 1px solid #ccc;
+    border-radius: 15px; /* Borda arredondada */
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  
+}
+
+/* Estilos para o botão "Salvar" */
+button[type="button"] {
+    float: right; /* Move o botão para o canto direito */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 15px; /* Borda arredondada */
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Estilos para o botão "Salvar" no hover */
+button[type="button"]:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.69);  
+}
+
+/* Estilos para o campo de texto */
+textarea {
+    border-radius: 15px; /* Borda arredondada */
+    resize: none; /* Impede o redimensionamento */
+}

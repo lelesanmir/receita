@@ -11,7 +11,7 @@
         <ul>
             <li><a href="../../Pages/dashboard.php">Home</a></li>
             <li><a href="../Cargo/listarCargo.php">Cargo</a></li>
-            <li><a href="../Funcionario/listarFunicionario.php">Funcionários</a></li>
+            <li><a href="../Funcionario/listarFuncionario.php">Funcionários</a></li>
             <li><a href="../Categoria/listarCategoria.php">Categoria</a></li>
             <li><a href="../../Pages/login.php">Login</a></li>
         </ul>
@@ -48,7 +48,7 @@
                 <input type="text" id="nome" name="nome" required><br>
 
                 <label for="contato">Contato (Telefone):</label>
-                <input type="tel" id="contato" name="contato" pattern="[0-9]{2}-[0-9]{4,5}-[0-9]{4}" placeholder="Formato: XX-XXXX-XXXX" required><br>
+                <input type="tel" id="contato" name="contato" pattern="[0-9]{2}-[0-9]{4,5}-[0-9]{4}" placeholder="Formato: XX-XXXX-XXXX" required><br><br>
 
                 <button type="submit" name="Cadastrar">Salvar</button><br><br>
                 <button><a href="listarRestaurante.php">Voltar Restaruante</a></button>

@@ -10,10 +10,10 @@
 <header>
     <nav>
         <ul>
-            <li><a href="../../Pages/dashboard.php">Home</a></li>
-            <li><a href="../../Pages/carg.php">Cargos</a></li>
-            <li><a href="../../Pages/func.php">Funcionários</a></li>
-            <li><a href="../../Pages/rest.php">Restaurante</a></li>
+        <li><a href="../../Pages/dashboard.php">Home</a></li>
+            <li><a href="../Categoria/listarCategoria.php">Categoria</a></li>
+            <li><a href="../Funcionario/listarFuncionario.php">Funcionários</a></li>
+            <li><a href="../Restaurante/listarRestaurante.php">Restaurante</a></li>
             <li><a href="../../Pages/login.php">Login</a></li>
         </ul>
     </nav>

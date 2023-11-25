@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <label for="dt_inicio">Data Início:</label>
                 <input type="text" id="dt_inicio" name="dt_inicio" required><br>
                 <label for="dt_fim">Data Fim:</label>
-                <input type="text" id="dt_fim" name="dt_fim" required><br>
+                <input type="text" id="dt_fim" name="dt_fim" required><br><br>
                 <button type="submit" name="Cadastrar">Salvar</button>
             </form>
         </div>

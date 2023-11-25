@@ -54,14 +54,16 @@
         }
     }
     ?>
-
-    <h1>Cadastrar Categoria</h1>
-
-    <form name="cad-categoria" action="" method="post">
-        <label for="descricao">Descrição: </label>
-        <input type="text" name="descricao" id="descricao" placeholder="Descrição da Categoria"><br><br>
-        <input type="submit" value="Cadastrar"><br><br>
-        <button><a href="listarCategoria.php">Voltar Categoria</a></button>
-    </form>
+    <main>
+        <div id="addForm">
+            <h1>Cadastrar Categoria</h1>
+            <form name="cad-categoria" action="" method="post">
+                <label for="descricao">Descrição: </label>
+                <input type="text" name="descricao" id="descricao" placeholder="Descrição da Categoria"><br><br>
+                <input type="submit" value="Cadastrar"><br><br>
+                <button><a href="listarCategoria.php">Voltar Categoria</a></button>
+            </form>
+        </div>
+    </main>
 </body>
 </html>

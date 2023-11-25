@@ -4,25 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../Pages/Styles/cadastro.css">
+    <link rel="stylesheet" href="../../Pages/Styles/style.css">
     <title>Cadastrar Medida</title>
 </head>
 <header>
-    <nav>
+<nav>
         <ul>
             <li><a href="../../Pages/dashboard.php">Home</a></li>
-            <li><a href="../../Pages/carg.php">Cargos</a></li>
-            <li><a href="../../Pages/func.php">Funcionários</a></li>
-            <li><a href="../../Pages/rest.php">Restaurante</a></li>
+            <li><a href="../Categoria/listarCategoria.php">Categoria</a></li>
+            <li><a href="../Funcionario/listarFuncionario.php">Funcionários</a></li>
+            <li><a href="../Restaurante/listarRestaurante.php">Restaurante</a></li>
             <li><a href="../../Pages/login.php">Login</a></li>
         </ul>
     </nav>
 </header>
 
 <body>
-    <main>
-        <div id="addForm">
-            <h2>Cadastrar Medida</h2>
+    
             <?php
             session_start();
             include_once '../conexao.php';
@@ -44,13 +42,15 @@
                 }
             }
             ?>
-
+    <main>
+        <div id="addForm">
+            <h2>Cadastrar Medida</h2>
             <form id="medidaForm" method="post" action="">
                 <label for="nome">Medida:</label>
                 <input type="text" id="nome" name="nome" required><br>
 
                 <label for="descricao">Descrição da Medida:</label>
-                <textarea id="descricao" name="descricao" cols="30" rows="10" required></textarea><br>
+                <textarea id="descricao" name="descricao" cols="30" rows="10" required></textarea><br><br>
 
                 <button type="submit" name="Cadastrar">Salvar</button>
             </form>

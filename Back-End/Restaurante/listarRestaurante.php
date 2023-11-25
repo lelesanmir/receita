@@ -6,6 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista Restaurante</title>
     <link rel="stylesheet" href="../../Pages/Styles/style.css">
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Definindo largura para as colunas */
+        th:nth-child(1), td:nth-child(1) {
+            width: 15%; /* Defina a largura desejada para o ID aqui */
+        }
+
+        th:nth-child(2), td:nth-child(2) {
+            width: 50%; /* Largura para a coluna Descrição */
+        }
+
+        th:nth-child(3), td:nth-child(3) {
+            width: 35%; /* Largura para a coluna Ações */
+        }
+    </style>
     <script>
         function confirmarExclusao(id) {
             if (confirm("Tem certeza que deseja excluir o Restaurante com ID: " + id + "?")) {

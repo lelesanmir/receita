@@ -53,22 +53,24 @@
         }
     }
     ?>
+<main>
+        <div id="addForm">
+            <form method="POST" action="">
+                <label for="nome_receita">Nome da Receita:</label>
+                <input type="text" name="nome_receita" required><br>
 
-    <form method="POST" action="">
-        <label for="nome_receita">Nome da Receita:</label>
-        <input type="text" name="nome_receita" required>
+                <label for="id_cozinheiro">ID do Cozinheiro:</label>
+                <input type="text" name="id_cozinheiro" required><br>
 
-        <label for="id_cozinheiro">ID do Cozinheiro:</label>
-        <input type="text" name="id_cozinheiro" required>
+                <label for="data_degustacao">Data de Degustação:</label>
+                <input type="date" name="data_degustacao" required><br>
 
-        <label for="data_degustacao">Data de Degustação:</label>
-        <input type="date" name="data_degustacao" required>
+                <label for="nota_degustacao">Nota de Degustação:</label>
+                <input type="text" name="nota_degustacao" required><br><br>
 
-        <label for="nota_degustacao">Nota de Degustação:</label>
-        <input type="text" name="nota_degustacao" required>
-
-        <button type="submit">Cadastrar</button>
-    </form>
-
+                <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+</main>
 </body>
 </html>

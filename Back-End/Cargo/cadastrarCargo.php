@@ -42,10 +42,11 @@
             ?>
 
             <form id="cargoForm" method="post" action="">
+                <br><br>
                 <label for="descricao">Descrição do Cargo:</label>
-                <input type="text" id="descricao" name="descricao" required><br>
+                <input type="text" id="descricao" name="descricao" required><br><br>
 
-                <button type="submit" name="Cadastrar">Salvar</button>
+                <button type="submit" name="Cadastrar">Salvar</button><br><br>
                 <button><a href="listarCargo.php">Voltar Para Cargo</a></button>
             </form>
         </div>

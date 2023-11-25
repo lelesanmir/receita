@@ -6,6 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Pages/Styles/style.css">
     <title>Listar Categoria</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Definindo largura para as colunas */
+        th:nth-child(1), td:nth-child(1) {
+            width: 10%; /* Defina a largura desejada para o ID aqui */
+        }
+
+        th:nth-child(2), td:nth-child(2) {
+            width: 60%; /* Largura para a coluna Descrição */
+        }
+
+        th:nth-child(3), td:nth-child(3) {
+            width: 30%; /* Largura para a coluna Ações */
+        }
+    </style>
     <script>
         function confirmarExclusao(id) {
             if (confirm("Tem certeza que deseja excluir a Categoria com ID: " + id + "?")) {

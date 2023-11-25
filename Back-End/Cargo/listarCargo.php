@@ -5,6 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../Pages/Styles/style.css">
     <title>Listar Cargos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* Definindo largura para as colunas */
+        th:nth-child(1), td:nth-child(1) {
+            width: 15%; /* Defina a largura desejada para o ID aqui */
+        }
+
+        th:nth-child(2), td:nth-child(2) {
+            width: 50%; /* Largura para a coluna Descrição */
+        }
+
+        th:nth-child(3), td:nth-child(3) {
+            width: 35%; /* Largura para a coluna Ações */
+        }
+    </style>
     <script>
         function confirmarExclusao(id) {
             if (confirm("Tem certeza que deseja excluir o Cargo com ID: " + id + "?")) {
@@ -33,7 +57,7 @@
         <ul>
             <li><a href="../../Pages/dashboard.php">Home</a></li>
             <li><a href="../Categoria/listarCategoria.php">Categoria</a></li>
-            <li><a href="../Funcionario/listarFunicionario.php">Funcionários</a></li>
+            <li><a href="../Funcionario/listarFuncionario.php">Funcionários</a></li>
             <li><a href="../Restaurante/listarRestaurante.php">Restaurante</a></li>
             <li><a href="../../Pages/login.php">Login</a></li>
         </ul>
@@ -62,7 +86,7 @@
     }
     ?>
     <br>
-    <a href="cadastrarCardo.php">
+    <a href="cadastrarCargo.php">
         <h2>+ CADASTRAR NOVO CARGO</h2>
     </a>
 </body>

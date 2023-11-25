@@ -63,6 +63,7 @@
                 <li><a href="../Cargo/listarCargo.php">Cargos</a></li>
                 <li><a href="../Funcionario/listarFuncionario.php">Funcionários</a></li>
                 <li><a href="../Categoria/listarCategoria.php">Categoria</a></li>
+                <li><a href="../Cargo/livro.php">Livro</a></li>
                 <li><a href="../../Pages/login.php">Login</a></li>
             </ul>
         </nav>

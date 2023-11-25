@@ -43,8 +43,10 @@
     }
     ?>
 
-    <br>
-    <a href="cadastrarFuncionario.php">Cadastrar Novo Funcionário</a>
+<br>
+    <a href="cadastrarFuncionario.php">
+        <h2>+ CADASTRAR NOVO FUNCIONARIO</h2>
+    </a>
 
 </body>
 

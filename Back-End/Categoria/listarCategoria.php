@@ -88,9 +88,10 @@
     }
 ?>
 
-    <br>
-    <button><a href="cadastrarCategoria.php">Novo Categoria</a></button> <br><br>
-    <button><a href="listarCategoria.php">Voltar Para Categoria</a></button>
+<br>
+    <a href="cadastrarCategoria.php">
+        <h2>+ CADASTRAR NOVA CATEGORIA</h2>
+    </a>
 </body>
 
 </html>

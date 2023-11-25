@@ -48,6 +48,7 @@
                         <a href="../Back-End/Categoria/listarCategoria.php">Categoria</a>
                         <a href="../Back-End/Degustacao/listarDegustacao.php">Degustacao</a>
                         <a href="../Back-End/Medida/listarMedida.php">Medida</a>
+                        <a href="../Back-End/Composicao/listarComposicao.php">Composicao</a>
                     </div>
                 </li>
                 <li class="dropdown">
@@ -60,6 +61,7 @@
 
                 <li><a href="../Back-End/Funcionario/listarFuncionario.php">Funcionários</a></li>
                 <li><a href="../Back-End/Cargo/listarCargo.php">Cargo</a></li>
+                <li><a href="../Back-End/Livro/livro.php">Livro</a></li>
                 
                 <li><a href="login.php">Login</a></li>
             </ul>
